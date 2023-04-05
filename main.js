@@ -9,5 +9,6 @@ function showcolor()
 
 function showname() 
 {
-    let usuario = document.getElementById("nome").value;
+    let usuário = document.getElementById("nome").value;
+    document.getElementById("mensagem").innerText= "Meu nome é: " + usuário;
 }
