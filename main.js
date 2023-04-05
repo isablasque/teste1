@@ -33,19 +33,19 @@ function divisao()
 {
     let numero1 = document.getElementById("num3").value;
     let numero2 = document.getElementById("num4").value;
-    document.getElementById("resultado2").innerHTML= parseFloat(numero3) / parseFloat(numero4)
+    document.getElementById("resultado2").innerHTML= parseFloat(numero1) / parseFloat(numero2)
 }
 function multiplicaçao() 
 {
     let numero1 = document.getElementById("num5").value;
     let numero2 = document.getElementById("num6").value;
-    document.getElementById("resultado3").innerHTML= parseFloat(numero5) * parseFloat(numero6)
+    document.getElementById("resultado3").innerHTML= parseFloat(numero1) * parseFloat(numero2)
 }
 function subtraçao() 
 {
     let numero1 = document.getElementById("num7").value;
     let numero2 = document.getElementById("num8").value;
-    document.getElementById("resultado4").innerHTML= parseFloat(numero7) - parseFloat(numero8)
+    document.getElementById("resultado4").innerHTML= parseFloat(numero1) - parseFloat(numero2)
 }
 
 
