@@ -35,4 +35,17 @@ function divisao()
     let numero2 = document.getElementById("num2").value;
     document.getElementById("resultado2").innerHTML= parseFloat(numero1) / parseFloat(numero2)
 }
+function multiplicaçao() 
+{
+    let numero1 = document.getElementById("num1").value;
+    let numero2 = document.getElementById("num2").value;
+    document.getElementById("resultado3").innerHTML= parseFloat(numero1) * parseFloat(numero2)
+}
+function multiplicaçao() 
+{
+    let numero1 = document.getElementById("num1").value;
+    let numero2 = document.getElementById("num2").value;
+    document.getElementById("resultado4").innerHTML= parseFloat(numero1) - parseFloat(numero2)
+}
+
 
