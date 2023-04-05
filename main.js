@@ -11,4 +11,5 @@ function showname()
 {
     let usuário = document.getElementById("nome").value;
     document.getElementById("mensagem").innerText= "Meu nome é: " + usuário;
+    document.getElementById("nome").value = "";
 }
